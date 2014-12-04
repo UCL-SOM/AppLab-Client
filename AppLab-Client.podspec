@@ -4,7 +4,7 @@ Pod::Spec.new do |spec|
 	spec.summary      = 'Client library for apps published on the UCL App Lab'
 	spec.platform		= :ios, "7.0"
   	spec.author = {
-    	'Niall Roche' => 'n.roche@ucl.ac.uk'
+    	'UCL App Lab' => 'uclapplab@ucl.ac.uk'
   	}
   	
   	spec.homepage     = 'https://github.com/UCLDECIDE/AppLab-Client'
