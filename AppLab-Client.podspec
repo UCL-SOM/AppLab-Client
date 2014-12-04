@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
 	spec.name         = 'AppLab-Client'
-	spec.version      = '0.0.1'
+	spec.version      = '0.0.2'
 	spec.summary      = 'Client library for apps published on the UCL App Lab'
 	spec.platform		= :ios, "7.0"
   	spec.author = {
@@ -15,7 +15,7 @@ Pod::Spec.new do |spec|
 	    :tag => spec.version.to_s
   	}
   	
-  	spec.ios.vendored_frameworks = 'TestFramework.framework'
+  	spec.ios.vendored_frameworks = 'AppLab-Client-Library.framework'
 
   	spec.dependency	'UXCam'
   	spec.dependency	'UICKeyChainStore'
