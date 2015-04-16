@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
 	spec.name         = 'AppLab-Client'
-	spec.version      = '0.1.1'
+	spec.version      = '0.1.2'
 	spec.summary      = 'Client library for apps published on the UCL App Lab'
 	spec.platform		= :ios, "7.0"
   	spec.author = {
@@ -17,7 +17,7 @@ Pod::Spec.new do |spec|
   	
   	spec.ios.vendored_frameworks = 'AppLab-Client-Library.framework'
 
-  	spec.dependency	'UXCam'
+  	spec.dependency	'UXCam', '~> 1.0'
   	spec.dependency	'UICKeyChainStore'
   	
   	spec.requires_arc = true
